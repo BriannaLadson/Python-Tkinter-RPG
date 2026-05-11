@@ -1,9 +1,98 @@
 # Python-Tkinter-RPG
-A complete 2D open-world RPG built using Python’s Tkinter library and terraforge-core, a procedural generation library I created.
+A complete 2D open-world RPG built using Python’s Tkinter library and TerraForge, a procedural generation library I created.
 
 This project focuses on procedural generation, sandbox gameplay, and RPG systems.
 
 The project also serves as the foundation for an evolving tutorial series where I break down the systems used to create the game step-by-step.
+
+***
+# Current Features
+
+## Procedural World Generation
+
+- Procedurally generated overworld maps powered by [TerraForge](https://github.com/BriannaLadson/TerraForge)
+- Multi-noise terrain generation using elevation, moisture, and temperature maps
+- Rule-based biome generation system
+- Configurable island generation settings
+- Large configurable world sizes
+- Configurable local map sizes
+- Wraparound overworld generation and rendering
+- Procedural biome map rendering
+- Biome-colored local maps
+
+---
+
+## Civilization & Settlement Generation
+
+- Procedurally generated civilizations
+- Race-based civilization generation
+- Procedurally generated capitals
+- Procedurally generated settlements
+- Biome-restricted settlement placement
+- Civilization culture systems
+- Procedural civilization naming
+- Procedural settlement naming
+- JSON-driven naming systems
+- Custom settlement map icons and colors
+
+---
+
+## Gameplay Systems
+
+- Overworld exploration
+- Local tile-based exploration
+- Enterable locations
+- Overworld-to-local map transitions
+- 8-directional movement system
+- Command-based input system
+- Player location tracking across world and local maps
+- Save system with persistent world data
+- Save slot creation and overwrite handling
+
+---
+
+## Rendering & UI
+
+- Canvas-based tile map renderer
+- Player-centered camera system
+- Zoomable map display
+- Dynamic tile resizing
+- Settlement/location markers displayed on the overworld
+- Dedicated world generation screen
+- Interactive procedural generation settings UI
+- Character creation flow
+- Start screen with new game/load game options
+- Multi-screen Tkinter UI architecture
+- Fullscreen/windowed Tkinter application framework
+
+---
+
+## Procedural Generation Controls
+
+- Editable procedural generation settings directly from the UI
+- Configurable seeds
+- Adjustable octaves
+- Adjustable persistence
+- Adjustable lacunarity
+- Adjustable falloff settings
+- Adjustable zoom values
+- Adjustable redistribution values
+- Randomize buttons for generation settings
+
+---
+
+## Architecture & Data Systems
+
+- JSON-driven data architecture
+- External world settings configuration
+- External race configuration
+- External biome configuration
+- External naming system configuration
+- Prefix-based modular data loader system
+- Modular project structure
+- Expandable procedural generation pipeline
+- Expandable RPG framework
+- Utility systems for save management and procedural color handling
 
 ***
 
